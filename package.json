@@ -7,9 +7,9 @@
   },
   "description": "Markdown shortcuts for snippets.",
   "icon": "img/logo.png",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "engines": {
-    "vscode": "^1.48.0"
+    "vscode": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/robole/vscode-markdown-shortcuts/issues"
@@ -40,6 +40,7 @@
     "keybindings": [
       {
         "key": "ctrl+b",
+        "mac": "cmd+b",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && editorLangId == markdown",
         "args": {
@@ -49,6 +50,7 @@
       },
       {
         "key": "ctrl+i",
+        "mac": "cmd+i",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus && editorLangId == markdown",
         "args": {

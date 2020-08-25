@@ -10,9 +10,9 @@ Markdown shortcuts for snippets.
 
 ![example](/img/example.gif)
 
-The cool thing about snippets is that they can be setup to behave like a wizard and guide you to different parts of the snippet for convenient editing. 🧙‍♂️
+The cool thing about snippets is that they can be setup to behave like a wizard and guide you to different parts for convenient editing. 🧙‍♂️
 
-In the example above, when you insert a task list, you are given options to check/uncheck (x or blank) a task item, you can tab to the text description for that item to edit it, and then tab to do the same for the next task item if you wish. If you don't want to edit the snippet at all, or you are done early, just hit `Enter` and the snippet will be finalised. Easy-peasy! 🙌
+In the example above, when you insert a task list, you can tab through each task completing each part. For each task, first you are given options to check/uncheck (x or blank) that task, then you can enter the title. If you don't want to edit the snippet at all, or you are done early, just hit `Enter` and the snippet will be finalised. Easy-peasy! 🙌
 
 The snippets are sourced from:
 - [VS Code](https://github.com/microsoft/vscode/blob/f74e473238aca7b79c08be761d99a0232838ca4c/extensions/markdown-basics/snippets/markdown.code-snippets):  Built-in snippets for the basic markdown syntax.
@@ -22,28 +22,29 @@ The *Markdown Snippets* extension is installed automatically along with this ext
 
 ## Shortcuts
 
-| Name                     | Shortcut      | Prefix           | Defined By                  |
-|--------------------------|---------------|------------------|-----------------------------|
-| Insert bold text         | Ctrl+b        | bold             | Visual Studio Code          |
-| Insert code              | Ctrl+m Ctrl+c | code             | Visual Studio Code          |
-| Insert fenced code block | Ctrl+m Ctrl+q | fenced codeblock | Visual Studio Code          |
-| Insert heading           | Ctrl+m Ctrl+f | heading          | Visual Studio Code          |
-| Insert heading level 1   | Ctrl+m Ctrl+1 | heading1         | Markdown Snippets Extension |
-| Insert heading level 2   | Ctrl+m Ctrl+2 | heading2         | Markdown Snippets Extension |
-| Insert heading level 3   | Ctrl+m Ctrl+3 | heading3         | Markdown Snippets Extension |
-| Insert heading level 4   | Ctrl+m Ctrl+4 | heading4         | Markdown Snippets Extension |
-| Insert heading level 5   | Ctrl+m Ctrl+5 | heading5         | Markdown Snippets Extension |
-| Insert heading level 6   | Ctrl+m Ctrl+6 | heading6         | Markdown Snippets Extension |
-| Insert horizontal rule   | Ctrl+m Ctrl+h | horizontal rule  | Visual Studio Code          |
-| Insert image             | Ctrl+m Ctrl+i | image            | Visual Studio Code          |
-| Insert italic text       | Ctrl+i        | italic           | Visual Studio Code          |
-| Insert link              | Ctrl+m Ctrl+l | link             | Visual Studio Code          |
-| Insert ordered list      | Ctrl+m Ctrl+o | ordered list     | Visual Studio Code          |
-| Insert quoted text       | Ctrl+m Ctrl+q | quote            | Visual Studio Code          |
-| Insert strikethrough     | Ctrl+m Ctrl+s | strikethrough    | Markdown Snippets Extension |
-| Insert table             | Ctrl+m Ctrl+t | table            | Markdown Snippets Extension |
-| Insert task list         | Ctrl+m Ctrl+x | task list        | Markdown Snippets Extension |
-| Insert unordered list    | Ctrl+m Ctrl+u | unordered list   | Visual Studio Code          |
+| Name                     | Shortcut                       | Prefix           | Defined By                  |
+|--------------------------|--------------------------------|------------------|-----------------------------|
+| Insert bold text         | Ctrl+b <br>      Cmd + b (mac) | bold             | Visual Studio Code          |
+| Insert code              | Ctrl+m Ctrl+c                  | code             | Visual Studio Code          |
+| Insert fenced code block | Ctrl+m Ctrl+q                  | fenced codeblock | Visual Studio Code          |
+| Insert heading           | Ctrl+m Ctrl+f                  | heading          | Visual Studio Code          |
+| Insert heading level 1   | Ctrl+m Ctrl+1                  | heading1         | Markdown Snippets Extension |
+| Insert heading level 2   | Ctrl+m Ctrl+2                  | heading2         | Markdown Snippets Extension |
+| Insert heading level 3   | Ctrl+m Ctrl+3                  | heading3         | Markdown Snippets Extension |
+| Insert heading level 4   | Ctrl+m Ctrl+4                  | heading4         | Markdown Snippets Extension |
+| Insert heading level 5   | Ctrl+m Ctrl+5                  | heading5         | Markdown Snippets Extension |
+| Insert heading level 6   | Ctrl+m Ctrl+6                  | heading6         | Markdown Snippets Extension |
+| Insert horizontal rule   | Ctrl+m Ctrl+h                  | horizontal rule  | Visual Studio Code          |
+| Insert image             | Ctrl+m Ctrl+i                  | image            | Visual Studio Code          |
+| Insert italic text       | Ctrl+I <br>      Cmd +i (mac)  | italic           | Visual Studio Code          |
+| Insert link              | Ctrl+m Ctrl+l                  | link             | Visual Studio Code          |
+| Insert ordered list      | Ctrl+m Ctrl+o                  | ordered list     | Visual Studio Code          |
+| Insert quoted text       | Ctrl+m Ctrl+q                  | quote            | Visual Studio Code          |
+| Insert strikethrough     | Ctrl+m Ctrl+s                  | strikethrough    | Markdown Snippets Extension |
+| Insert table             | Ctrl+m Ctrl+t                  | table            | Markdown Snippets Extension |
+| Insert task list         | Ctrl+m Ctrl+x                  | task list        | Markdown Snippets Extension |
+| Insert unordered list    | Ctrl+m Ctrl+u                  | unordered list   | Visual Studio Code          |
+|                          |                                |                  |                             |
 
 None of these shortcuts are used by default in VS Code with the exception of `Ctrl+b`. This shortcut is used to "show the sidebar", if you are not editing a markdown file, it will still do this. This may not be to your liking, you are free to assign a different shortcut for it, or others if you wish!
 
@@ -57,10 +58,10 @@ I chose these particular shortcuts because:
 
 ### How to change the shortcuts
 
-Unfortunately, VS Code does show enough information for shortcuts to make it easy for differentiation. You need to know the current keybinding to find what you are looking.
+Unfortunately, VS Code does not show enough information for shortcuts to make it easy to identify your shortcuts easily. You need to know the current keybinding to find what you are looking.
 
 ![keyboard shortcuts settings](img/settings.png)
 
 If you want to change the shortcuts for the snippets, you can open the keyboard shortcuts settings, you will find the correct set of shortcuts if you search for "insert snippet", it is all the items where the *when* clause has the condition of `editorTextFocus && editorlangId == 'markdown'`.
 
-There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to improve the keyboard shortcuts settings UI.
+There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to improve the keyboard shortcuts settings UI. Hopefully, this will happen soon, you can give the issue a 👍 to indicate your interest in the implementation of a solution.

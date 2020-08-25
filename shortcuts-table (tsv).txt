@@ -1,5 +1,6 @@
 Name	Shortcut	Prefix	Defined By
-Insert bold text	Ctrl+b	bold	Visual Studio Code
+Insert bold text	"Ctrl+b <br>
+Cmd + b (mac)"	bold	Visual Studio Code
 Insert code	Ctrl+m Ctrl+c	code	Visual Studio Code
 Insert fenced code block	Ctrl+m Ctrl+q	fenced codeblock	Visual Studio Code
 Insert heading	Ctrl+m Ctrl+f	heading	Visual Studio Code
@@ -11,7 +12,8 @@ Insert heading level 5	Ctrl+m Ctrl+5	heading5	Markdown Snippets Extension
 Insert heading level 6	Ctrl+m Ctrl+6	heading6	Markdown Snippets Extension
 Insert horizontal rule	Ctrl+m Ctrl+h	horizontal rule	Visual Studio Code
 Insert image	Ctrl+m Ctrl+i	image	Visual Studio Code
-Insert italic text	Ctrl+i	italic	Visual Studio Code
+Insert italic text	"Ctrl+I <br>
+Cmd +i (mac)"	italic	Visual Studio Code
 Insert link	Ctrl+m Ctrl+l	link	Visual Studio Code
 Insert ordered list	Ctrl+m Ctrl+o	ordered list	Visual Studio Code
 Insert quoted text	Ctrl+m Ctrl+q	quote	Visual Studio Code
