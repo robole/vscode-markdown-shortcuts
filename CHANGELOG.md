@@ -4,6 +4,12 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.0] - 2020-09-05
+
+### Changed
+
+- Change logo.
+
 ## [0.1.0] - 2020-08-25
 
 ### Changed

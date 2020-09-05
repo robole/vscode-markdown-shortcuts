@@ -65,3 +65,7 @@ Unfortunately, VS Code does not show enough information for shortcuts to make it
 If you want to change the shortcuts for the snippets, you can open the keyboard shortcuts settings, you will find the correct set of shortcuts if you search for "insert snippet", it is all the items where the *when* clause has the condition of `editorTextFocus && editorlangId == 'markdown'`.
 
 There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to improve the keyboard shortcuts settings UI. Hopefully, this will happen soon, you can give the issue a 👍 to indicate your interest in the implementation of a solution.
+
+## Icon Attribution
+
+- Based on "Heart" by Raji Purcell from the Noun Project
