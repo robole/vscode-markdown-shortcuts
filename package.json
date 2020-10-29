@@ -7,7 +7,7 @@
   },
   "description": "Markdown shortcuts for snippets.",
   "icon": "img/logo.png",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -42,7 +42,7 @@
         "key": "ctrl+b",
         "mac": "cmd+b",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert bold text"
@@ -52,7 +52,7 @@
         "key": "ctrl+i",
         "mac": "cmd+i",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert italic text"
@@ -61,7 +61,7 @@
       {
         "key": "ctrl+m ctrl+q",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert quoted text"
@@ -70,7 +70,7 @@
       {
         "key": "ctrl+m ctrl+c",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert code"
@@ -79,7 +79,7 @@
       {
         "key": "ctrl+m ctrl+f",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert fenced code block"
@@ -88,7 +88,7 @@
       {
         "key": "ctrl+m ctrl+u",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert unordered list"
@@ -97,7 +97,7 @@
       {
         "key": "ctrl+m ctrl+o",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert ordered list"
@@ -106,7 +106,7 @@
       {
         "key": "ctrl+m ctrl+h",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert horizontal rule"
@@ -115,7 +115,7 @@
       {
         "key": "ctrl+m ctrl+l",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert link"
@@ -124,7 +124,7 @@
       {
         "key": "ctrl+m ctrl+i",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert image"
@@ -133,7 +133,7 @@
       {
         "key": "ctrl+m ctrl+1",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert heading level 1"
@@ -142,7 +142,7 @@
       {
         "key": "ctrl+m ctrl+2",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert heading level 2"
@@ -151,7 +151,7 @@
       {
         "key": "ctrl+m ctrl+3",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert heading level 3"
@@ -160,7 +160,7 @@
       {
         "key": "ctrl+m ctrl+4",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert heading level 4"
@@ -169,7 +169,7 @@
       {
         "key": "ctrl+m ctrl+5",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert heading level 5"
@@ -178,7 +178,7 @@
       {
         "key": "ctrl+m ctrl+6",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert heading level 6"
@@ -187,7 +187,7 @@
       {
         "key": "ctrl+m ctrl+s",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert strikethrough"
@@ -196,7 +196,7 @@
       {
         "key": "ctrl+m ctrl+t",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert table"
@@ -205,7 +205,7 @@
       {
         "key": "ctrl+m ctrl+x",
         "command": "editor.action.insertSnippet",
-        "when": "editorTextFocus && editorLangId == markdown",
+        "when": "!editorReadonly && editorTextFocus && editorLangId == markdown",
         "args": {
           "langId": "markdown",
           "name": "Insert task list"

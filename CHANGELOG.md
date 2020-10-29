@@ -3,6 +3,15 @@
 All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.3.0] - 2020-09-14
+
+### Fixed
+
+- Fixed shortcut in README for "Insert fenced code block".
+
+### Changed
+
+- Changed when clause for all shortcuts to include `!editorReadonly`.
 
 ## [0.3.0] - 2020-09-14
 
