@@ -3,6 +3,18 @@
 All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+
+## [0.4.0] - 2021-04-24
+
+### Added
+
+- Added to open-vsx.org marketplace.
+- Added github action to publish to marketplaces.
+
+### Changed
+
+- Tidied up README.
+
 ## [0.3.0] - 2020-09-14
 
 ### Fixed

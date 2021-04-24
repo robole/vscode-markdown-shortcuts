@@ -2,23 +2,26 @@
 
 ![Extension file size in bytes](https://img.shields.io/static/v1?logo=visual-studio-code&label=made%20for&message=VS%20Code&color=0000ff)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/robole.markdown-shortcuts?logo=visual-studio-code&color=ffa500)
-![Extension file size in bytes](https://img.shields.io/static/v1?logo=visual-studio-code&label=size&message=14KB&color=008000)
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/robole.markdown-shortcuts?logo=visual-studio-code&color=yellow)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/robole.markdown-shortcuts?logo=visual-studio-code&color=blue)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/robole.markdown-shortcuts?logo=visual-studio-code&color=blue)
+![Extension file size in bytes](https://img.shields.io/static/v1?logo=visual-studio-code&label=size&message=14KB&color=008000)
 ![Built with](https://img.shields.io/static/v1?label=built%20with&message=good%20vibrations&color=violet)
+[![Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-$4-orange?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/robole)
 
-Markdown shortcuts for snippets.
+Keyboard shortcuts for markdown snippets.
 
 ![example](/img/example.gif)
 
-The cool thing about snippets is that they can be setup to behave like a wizard and guide you to different parts for convenient editing. 🧙‍♂️
+The cool thing about snippets is that they can be setup to behave like a wizard and give a guided editing experience. 🧙‍♂️
 
-In the example above, when you insert a task list, you can tab through each task completing each part. For each task, first you are given options to check/uncheck (x or blank) that task, then you can enter the title. If you don't want to edit the snippet at all, or you are done early, just hit `Enter` and the snippet will be finalised. Easy-peasy! 🙌
+In the example above, when you insert a task list, you can tab through each task completing them as you go. For each task, first you are given options to check/uncheck (x or blank) that task, then you can enter the title. If you don't want to edit the snippet at all, or you are done early, just hit `Enter` and the snippet will be finalised. Easy-peasy! 🙌
 
 The snippets are sourced from:
 - [VS Code](https://github.com/microsoft/vscode/blob/f74e473238aca7b79c08be761d99a0232838ca4c/extensions/markdown-basics/snippets/markdown.code-snippets):  Built-in snippets for the basic markdown syntax.
 - [Markdown Snippets extension](https://marketplace.visualstudio.com/items?itemName=robole.markdown-snippets): Snippets for extended markdown syntax.
 
-The *Markdown Snippets* extension is installed automatically along with this extension. Nothing extra is required from you ever! 🙂
+The *Markdown Snippets* extension is installed automatically along with this extension. Nothing extra is required by you! 🙂
 
 ## Shortcuts
 
@@ -49,20 +52,32 @@ None of these shortcuts are used by default in VS Code with the exception of `Ct
 ### Rationale
 
 I chose these particular shortcuts because:
-1. '`Ctrl` plus one key' combinations are mostly used already.
-1. '`Ctrl+Shift` plus one additional key' combinations are mostly used already.
+1. The '`Ctrl` plus one key' combinations are mostly used already.
+1. The '`Ctrl+Shift` plus one additional key' combinations are mostly used already.
 1. I wanted to find a consistent and predictable pattern, so opted for combinations that have the same opening sequence.
 1. I made an exception for "insert bold" and "insert italic" as most text editors have `ctrl+b` and `ctrl+i` as the shortcuts for these actions, so I thought it best to do the same.
 
 ### How to change the shortcuts
 
-Unfortunately, VS Code does not show enough information for shortcuts to make it easy to identify your shortcuts easily. You need to know the current keybinding to find what you are looking.
+You can change the keyboard shortcuts to whatever you want in the *Keyboard Shortcuts UI*.
+
+Unfortunately, VS Code does not show the `args` of a command that would enable you to identify the particular markdown snippet. So, we can't just search for "insert table".
 
 ![keyboard shortcuts settings](img/settings.png)
 
-If you want to change the shortcuts for the snippets, you can open the keyboard shortcuts settings, you will find the correct set of shortcuts if you search for "insert snippet", it is all the items where the *when* clause has the condition of `!editorReadonly && editorTextFocus && editorLangId == markdown`.
+To get the list of markdown shortcuts, search for "insert snippet". It is all the items where the `Command` is "Insert Snippet, and the `When` clause has the condition of `!editorReadonly && editorTextFocus && editorLangId == markdown`. You need to know the current keybinding to find the snippet shortcut you are interested in.
 
-There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to improve the keyboard shortcuts settings UI. Hopefully, this will happen soon, you can give the issue a 👍 to indicate your interest in the implementation of a solution.
+There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to improve the *Keyboard shortcuts  UI* to make this a better experience. Hopefully, this will happen soon, you can give the issue a 👍 to indicate your interest in the implementation of a solution.
+
+## Contribute
+
+If you have a suggestion or find a bug, please file an issue.
+
+## Show gratitude
+
+If you are happy with the extension, please star the repo, and leave a review to help others find it. 🌟
+
+You can [buy me a coffee](https://www.buymeacoffee.com/robole) if you would like to support me to make more great open-source software. ☕🙏
 
 ## Icon Attribution
 
