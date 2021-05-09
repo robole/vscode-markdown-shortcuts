@@ -1,2 +1,5 @@
 node_modules/**
 *.vsix
+img
+!img/logo.png
+.github

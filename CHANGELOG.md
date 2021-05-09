@@ -4,6 +4,14 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.5.0] - 2021-05-09
+
+### Changed
+
+- Change README format.
+- Update keys for publishing to marketplace.
+- Exclude more files in .vscodeignore.
+
 ## [0.4.0] - 2021-04-24
 
 ### Added
