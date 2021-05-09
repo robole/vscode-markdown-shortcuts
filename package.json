@@ -7,7 +7,7 @@
   },
   "description": "Keyboard shortcuts for markdown snippets.",
   "icon": "img/logo.png",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "engines": {
     "vscode": "^1.0.0"
   },

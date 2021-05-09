@@ -11,12 +11,12 @@
 
 <p align="center">
 <img src="https://img.shields.io/static/v1?logo=visual-studio-code&label=made%20for&message=VS%20Code&color=0000ff" alt="Made for VSCode">
-<img src="https://img.shields.io/visual-studio-marketplace/v/robole.markdown-shorcuts?logo=visual-studio-code&color=ffa500" alt="Visual Studio Marketplace Version">
+<img src="https://img.shields.io/visual-studio-marketplace/v/robole.markdown-shortcuts?logo=visual-studio-code&color=ffa500" alt="Visual Studio Marketplace Version">
 <img src="https://img.shields.io/static/v1?logo=visual-studio-code&label=size&message=12KB&color=008000"
 alt="Extension file size in bytes">
-<img src="https://img.shields.io/visual-studio-marketplace/r/robole.markdown-shorcuts?logo=visual-studio-code&color=yellow" alt="Visual Studio Marketplace Rating">
-<img src="https://img.shields.io/visual-studio-marketplace/d/robole.markdown-shorcuts?logo=visual-studio-code&color=blue" alt="downloads"/>
-<img src="https://img.shields.io/visual-studio-marketplace/i/robole.markdown-shorcuts?logo=visual-studio-code&color=blue" alt="installs"/>
+<img src="https://img.shields.io/visual-studio-marketplace/r/robole.markdown-shortcuts?logo=visual-studio-code&color=yellow" alt="Visual Studio Marketplace Rating">
+<img src="https://img.shields.io/visual-studio-marketplace/d/robole.markdown-shortcuts?logo=visual-studio-code&color=blue" alt="downloads"/>
+<img src="https://img.shields.io/visual-studio-marketplace/i/robole.markdown-shortcuts?logo=visual-studio-code&color=blue" alt="installs"/>
 <img src="https://img.shields.io/static/v1?label=built%20with&message=good%20vibrations%20%26%20javascript&color=violet" alt="Built with carrot juice and javascript"/>
 <a href="https://ko-fi.com/roboleary"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-$4-orange?logo=buy-me-a-coffee" alt="Buy me a coffee"></a>
 </p>
@@ -81,9 +81,9 @@ There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to im
 
 ## Installation
 
-1. It is listed in the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shorcuts) and [Open VSX Marketplace](https://open-vsx.org/extension/robole/markdown-shortcuts) where you can download or install it directly.
-1. Inside VS Code: Type `Ctrl+P`, write `ext install robole.markdown-shorcuts` in the text field, and hit `Enter`.
-1. From the Command-line: Run the command `code --install-extension robole.markdown-shorcuts`.
+1. It is listed in the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts) and [Open VSX Marketplace](https://open-vsx.org/extension/robole/markdown-shortcuts) where you can download or install it directly.
+1. Inside VS Code: Type `Ctrl+P`, write `ext install robole.markdown-shortcuts` in the text field, and hit `Enter`.
+1. From the Command-line: Run the command `code --install-extension robole.markdown-shortcuts`.
 
 ## Contribute
 

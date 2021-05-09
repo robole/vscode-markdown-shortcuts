@@ -4,6 +4,12 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.5.1] - 2021-05-09
+
+### Fixed
+
+- Fixed extension name for badges.
+
 ## [0.5.0] - 2021-05-09
 
 ### Changed
