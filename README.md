@@ -57,7 +57,7 @@ The *Markdown Snippets* extension is installed automatically along with this ext
 | Insert table             | Ctrl+m Ctrl+t                  | table            | Markdown Snippet Extension |
 | Insert task list         | Ctrl+m Ctrl+x                  | task list        | Markdown Snippet Extension |
 
-None of these shortcuts are used by default in VS Code with the exception of `Ctrl+b`. This shortcut is used to "show the sidebar". If you are not editing a markdown file, it will still do this. This may not be to your liking, you are free to assign a different shortcut for it, or others if you wish!
+None of these shortcuts are used by default in VS Code with the exception of `Ctrl+b`. This shortcut is used to "View: Toggle Side Bar Visibility". If you are not editing a markdown file, it will still do this. This may not be to your liking, you are free to assign a different shortcut for it, or others if you wish!
 
 ### Rationale
 
@@ -69,15 +69,15 @@ I chose these particular shortcuts because:
 
 ### How to change the shortcuts
 
-You can change the keyboard shortcuts to whatever you want in the *Keyboard Shortcuts UI*.
+You can change the keyboard shortcuts to whatever you want in the *Keyboard Shortcuts Editor*, which you can open with the command "Preferences: Open Keyboard Shortcuts".
 
 Unfortunately, VS Code does not show the `args` of a command that would enable you to identify the particular markdown snippet. So, we can't just search for "insert table".
 
 ![keyboard shortcuts settings](img/settings.png)
 
-To get the list of markdown shortcuts, search for "insert snippet". The `When` clause will have the condition of `!editorReadonly && editorTextFocus && editorLangId == markdown`. You need to know the current keybinding to find the snippet shortcut you are interested in.
+To get the list of markdown shortcuts, search for "insert snippet". The `when` clause should have the condition: `!editorReadonly && editorTextFocus && editorLangId == markdown`. You need to know the current keybinding to find the snippet shortcut you are interested in.
 
-There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to improve the *Keyboard shortcuts  UI* to make this a better experience. Hopefully, this will happen soon, you can give the issue a 👍 to indicate your interest in the implementation of a solution.
+There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to improve the Keyboard shortcuts editor to make this a better experience. Hopefully, this will happen soon, you can give the issue a 👍 to indicate your interest in the implementation of a solution.
 
 ## Installation
 
@@ -88,6 +88,10 @@ There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to im
 ## Contribute
 
 If you have a suggestion or find a bug, please file an issue.
+
+## Want to learn more about keyboard shortcuts?
+
+You can read my article, [VS Code keyboard-fu: custom keyboard shortcuts that will boost your productivity](https://www.roboleary.net/2022/02/28/vscode-keyboard-fu-custom-keyboard-shortcuts.html).
 
 ## Show gratitude
 

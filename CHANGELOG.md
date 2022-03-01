@@ -4,6 +4,16 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.6.0] - 2022-03-01
+
+### Added
+
+- Added "Want to learn more about keyboard shortcuts?" section.
+
+### Changed
+
+- Some minor edits to README.
+
 ## [0.5.1] - 2021-05-09
 
 ### Fixed
