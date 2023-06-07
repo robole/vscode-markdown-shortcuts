@@ -8,7 +8,7 @@
   "description": "Keyboard shortcuts for markdown snippets.",
   "preview": true,
   "icon": "img/logo.png",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "engines": {
     "vscode": "^1.0.0"
   },

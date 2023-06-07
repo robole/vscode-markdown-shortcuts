@@ -4,6 +4,12 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.7.1] - 2023-06-07
+
+### Changed
+
+- Update repo secrets to enable GitHub Action to publish same version to both marketplaces.
+
 ## [0.7.0] - 2023-06-07
 
 ### Changed

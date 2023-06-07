@@ -21,7 +21,7 @@ alt="Extension file size in bytes">
 <a href="https://ko-fi.com/roboleary"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-$4-orange?logo=buy-me-a-coffee" alt="Buy me a coffee"></a>
 </p>
 
-> This extension is best used as a source of inspiration for creating your own shortcuts for markdown snippets. It *should* work forever. Now the project is closed to contributions, the repo is archived.
+> This extension is best used as a source of inspiration for creating your own shortcuts for markdown snippets. It *should* work forever. The project is now closed to contributions - the repo is archived.
 
 The cool thing about snippets is that they can be setup to behave like a wizard and give a guided editing experience. 🧙‍♂️ Adding keyboard shortcuts to snippets can improve your typing efficiency when writing markdown documents. ⌨️✨
 
