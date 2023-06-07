@@ -4,6 +4,13 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.7.0] - 2023-06-07
+
+### Changed
+
+- Archived project.
+- Updated README to report status.
+
 ## [0.6.0] - 2022-03-01
 
 ### Added

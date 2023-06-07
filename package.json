@@ -6,8 +6,9 @@
     "name": "Rob O'Leary"
   },
   "description": "Keyboard shortcuts for markdown snippets.",
+  "preview": true,
   "icon": "img/logo.png",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -17,6 +18,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/robole/vscode-markdown-shortcuts"
+  },
+  "sponsor": {
+    "url": "https://ko-fi.com/roboleary"
   },
   "license": "MIT",
   "categories": [
@@ -216,9 +220,9 @@
     ]
   },
   "scripts": {
-    "build": "vsce package ."
+    "build": "vsce package"
   },
   "devDependencies": {
-    "vsce": "^1.78.0"
+    "vsce": "^2.15.0"
   }
 }

@@ -21,7 +21,9 @@ alt="Extension file size in bytes">
 <a href="https://ko-fi.com/roboleary"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-$4-orange?logo=buy-me-a-coffee" alt="Buy me a coffee"></a>
 </p>
 
-The cool thing about snippets is that they can be setup to behave like a wizard and give a guided editing experience. 🧙‍♂️ Adding keyboard shortcuts to snippets can really improve your typing efficiency when writing markdown documents. ⌨️✨
+> This extension is best used as a source of inspiration for creating your own shortcuts for markdown snippets. It *should* work forever. Now the project is closed to contributions, the repo is archived.
+
+The cool thing about snippets is that they can be setup to behave like a wizard and give a guided editing experience. 🧙‍♂️ Adding keyboard shortcuts to snippets can improve your typing efficiency when writing markdown documents. ⌨️✨
 
 ![example](img/example.gif)
 
@@ -69,35 +71,11 @@ I chose these particular shortcuts because:
 
 ### How to change the shortcuts
 
-You can change the keyboard shortcuts to whatever you want in the *Keyboard Shortcuts Editor*, which you can open with the command "Preferences: Open Keyboard Shortcuts".
+You can read my article, [VS Code keyboard shortcuts that will boost your productivity](https://www.roboleary.net/2022/02/28/vscode-keyboard-fu-custom-keyboard-shortcuts.html) to learn more about keyboard shortcuts.
 
-Unfortunately, VS Code does not show the `args` of a command that would enable you to identify the particular markdown snippet. So, we can't just search for "insert table".
+## Appreciate
 
-![keyboard shortcuts settings](img/settings.png)
-
-To get the list of markdown shortcuts, search for "insert snippet". The `when` clause should have the condition: `!editorReadonly && editorTextFocus && editorLangId == markdown`. You need to know the current keybinding to find the snippet shortcut you are interested in.
-
-There is an [open issue](https://github.com/microsoft/vscode/issues/84072) to improve the Keyboard shortcuts editor to make this a better experience. Hopefully, this will happen soon, you can give the issue a 👍 to indicate your interest in the implementation of a solution.
-
-## Installation
-
-1. It is listed in the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=robole.markdown-shortcuts) and [Open VSX Marketplace](https://open-vsx.org/extension/robole/markdown-shortcuts) where you can download or install it directly.
-1. Inside VS Code: Type `Ctrl+P`, write `ext install robole.markdown-shortcuts` in the text field, and hit `Enter`.
-1. From the Command-line: Run the command `code --install-extension robole.markdown-shortcuts`.
-
-## Contribute
-
-If you have a suggestion or find a bug, please file an issue.
-
-## Want to learn more about keyboard shortcuts?
-
-You can read my article, [VS Code keyboard-fu: custom keyboard shortcuts that will boost your productivity](https://www.roboleary.net/2022/02/28/vscode-keyboard-fu-custom-keyboard-shortcuts.html).
-
-## Show gratitude
-
-If you are happy with the extension, please star the repo, and leave a review to help others find it. 🌟
-
-You can [buy me a coffee](https://ko-fi.com/roboleary) if you would like to support me to make more great open-source software. ☕🙏
+You can [buy me a coffee](https://ko-fi.com/roboleary) if you would like to support me to make more great open-source software.
 
 ## Icon Attribution
 
